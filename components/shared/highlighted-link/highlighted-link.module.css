@@ -1,0 +1,42 @@
+.link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+  padding: 3px;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.link a {
+  margin-right: 21px;
+}
+
+.link:after {
+  content: "";
+  display: block;
+  height: 6px;
+  width: 70px;
+  background: var(--color-green);
+  transition: 0.2s ease-in-out;
+  position: absolute;
+  bottom: -6px;
+  left: 0px;
+}
+
+.link img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 25px;
+}
+
+.link:hover {
+  color: #fff;
+}
+
+.link:hover:after {
+  width: 100%;
+}

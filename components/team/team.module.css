@@ -1,0 +1,99 @@
+.team {
+  margin-top: 160px;
+}
+
+.heading {
+  margin-bottom: 20px;
+}
+
+.cardContainer {
+  padding: 30px 10px 10px;
+}
+
+.card {
+  position: relative;
+  border: 4px solid var(--color-purple);
+  border-radius: 12px;
+  margin-top: 25%;
+  padding: 0px 30px 20px;
+  box-shadow: 0px 0px 6px 1px var(--color-purple);
+}
+
+.card.green {
+  box-shadow: 0px 0px 6px 1px var(--color-green);
+  ;
+}
+
+.card h3 {
+  margin-top: calc(95px + 38px);
+  margin-bottom: 0px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.card h4 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  color: var(--color-green);
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: var(--color-paragraph-text);
+  margin-top: 30px;
+  height: 144px;
+}
+
+.image {
+  display: block;
+  width: 190px;
+  height: 190px;
+  border: 4px solid var(--color-purple);
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 3px var(--color-purple);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -95px;
+}
+
+.card.green,
+.card.green .image {
+  border-color: var(--color-green);
+}
+
+.card.green .image {
+  box-shadow: 0px 0px 10px 3px var(--color-green);
+}
+
+.btn {
+  font-size: 18px;
+  display: block;
+  margin: 27px auto 60px;
+}
+
+@media screen and (max-width: 1200px) {
+  .paragraph {
+    height: 168px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .paragraph {
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .paragraph {
+    height: auto;
+  }
+}
