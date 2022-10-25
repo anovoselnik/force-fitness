@@ -7,25 +7,25 @@ const team = [
   {
     name: "Branislava Musulin",
     job: "Trener",
-    image: "branislava.png",
+    image: "Brana-34.jpg",
     desc: "Pomažem majkama da postignu bolju formu od one koju su imale prije trudnoće, uz pomoć MamaFit programa koji traje maksimalno 12 tjedana!",
   },
   {
     name: "Matija Kocijan",
     job: "Trener",
-    image: "matija.png",
+    image: "Brana-11.jpg",
     desc: "Pomažem ženama 20-50 godina da smršave do 12 kilograma za 12 tjedana uz pomoć svog jedinstvenog transformacijskog programa.",
   },
   {
     name: "Ivan Starčević",
     job: "Trener",
-    image: "ivan.png",
+    image: "Brana-4.jpg",
     desc: "Pomažem ljudima da se oporave od ozljeda koštano-mišićno-zglobnog sustava, kroz treninge kineziterapije i rehabilitacije.",
   },
   {
     name: "Milan Musulin",
     job: "Trener",
-    image: "milan.png",
+    image: "Brana-41.jpg",
     desc: "Pomažem ženama i muškarcima da izgrade kvalitetnu mišićnu masu i snagu, kroz jedinstvene BootyBuilding i FORCE FITNESS programe.",
   },
 ];

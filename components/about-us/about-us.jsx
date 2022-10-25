@@ -17,6 +17,12 @@ const Image = ({ src, clickHandler }) => (
   </div>
 );
 
+const images = [
+  75, 76, 77, 79, 79, 82, 83, 84, 85, 86, 88, 89, 90, 91, 95, 96, 99, 100, 101,
+  102, 103, 107, 108, 109, 110, 111, 112, 113, 115, 119, 121, 122, 123, 125,
+  127,
+];
+
 const GalleryImage = ({ src }) => (
   <img className={styles.galleryImage} src={`./img/${src}`} />
 );
@@ -116,10 +122,10 @@ export const AboutUs = () => {
                   },
                 ]}
               >
-                {[1, 2, 3, 4, 5, 6].map((img, i) => (
+                {images.map((img, i) => (
                   <Image
                     key={img}
-                    src={`img_${img}.jpeg`}
+                    src={`Brana-${img}.jpg`}
                     clickHandler={() => onImageClick(i)}
                   />
                 ))}
@@ -144,8 +150,8 @@ export const AboutUs = () => {
             nextArrow={<NextArrow />}
             prevArrow={<PrevArrow />}
           >
-            {[1, 2, 3, 4, 5, 6].map((img) => (
-              <GalleryImage key={img} src={`img_${img}.jpeg`} />
+            {images.map((img) => (
+              <GalleryImage key={img} src={`Brana-${img}.jpg`} />
             ))}
           </Slider>
         </div>
