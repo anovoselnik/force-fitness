@@ -17,12 +17,6 @@ const references = [
     img: "andrea",
   },
   {
-    name: "Ivona Maras",
-    profession: "Psiholog",
-    text: "Teretana je super opremljena, a djelatnici stručni i uvijek spremni pomoći. Posebno bih pohvalila Branu na davanju cijele sebe u naše grupne treninge i na dostupnosti 0-24h za bilo kakva pitanja. Uz nju sam napokon uspjela dobiti 5kg kojih mi je falilo godinama. Svaka pohvala!",
-    img: "ivona",
-  },
-  {
     name: "Tihana Valanović",
     profession: "Komercijalist",
     text: "Jedno od mjesta gdje je trenerima zaista stalo da vam pruže znanje, motivaciju i podršku. Bilo da radite individualno ili grupno rezultati su i više nego odlični. Sve pohvale!",
