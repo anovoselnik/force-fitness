@@ -133,3 +133,15 @@ a {
     padding: 70px 30px;
   }
 }
+
+.slick-track {
+  display: flex !important;
+}
+
+.slick-slide {
+  height: auto;
+}
+
+.slick-slide>div {
+  height: 100%;
+}

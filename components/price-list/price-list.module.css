@@ -8,6 +8,7 @@
 
 .cardContainer {
   padding: 30px 10px 0px;
+  height: 100%;
 }
 
 .card {
@@ -15,6 +16,9 @@
   border-radius: 12px;
   padding: 30px 20px 20px;
   box-shadow: 0px 0px 6px 1px var(--color-green);
+  height: 100%;
+  position: relative;
+  padding-bottom: 110px;
 }
 
 .card h3 {
@@ -24,7 +28,6 @@
   line-height: 28px;
   color: #F2F2F2;
   text-transform: uppercase;
-  height: 30px;
 }
 
 .price {
@@ -36,7 +39,10 @@
   letter-spacing: 0.3px;
   color: #171717;
   width: 60%;
-  margin: 0 auto 40px;
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  transform: translateX(-50%);
 }
 
 .texts {
