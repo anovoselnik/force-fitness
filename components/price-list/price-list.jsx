@@ -8,91 +8,107 @@ import { NextArrow, PrevArrow } from "../shared/arrows";
 const prices = [
   {
     name: "Mjesečna članarina neograničeno",
-    price: 250,
+    price: 38,
   },
   {
-    name: "Mjesečna članarina 2 mjeseca",
-    price: 450,
+    name: "Mjesečna članarina 3 mjeseca",
+    price: 102,
   },
   {
     name: "Studenska, učenička i umirovljenička članarina",
-    price: 220,
+    price: 34,
   },
   {
     name: "Studenska, učenička i umirovljenička članarina do 16h",
-    price: 200,
+    price: 30,
   },
   {
     name: "1 trening",
-    price: 40,
+    price: 5,
   },
   {
     name: "Mjesečna obiteljska članarina (2 osobe)",
-    price: 450,
+    price: 68,
   },
   {
     name: "Mjesečna obiteljska članarina (3 osobe)",
-    price: 630,
+    price: 96,
   },
   {
     name: "Mjesečna obiteljska članarina (4 osobe)",
-    price: 730,
+    price: 108,
   },
   {
     name: "Grupni treninzi",
-    price: 280,
+    price: 45,
+  },
+  {
+    name: "Grupni treninzi 3 mjeseca",
+    price: 120,
   },
   {
     name: "Vođeni treninzi",
-    price: 300,
+    price: 50,
   },
   {
-    name: "'Fit Kid' grupa",
-    price: 250,
+    name: "Vođeni treninzi 3 mjeseca",
+    price: 135,
+  },
+  {
+    name: "TFF 3 mjeseca",
+    price: 289,
+  },
+  {
+    name: "TFF 2 mjeseca",
+    price: 227,
+  },
+  {
+    name: "Mama fit 3 mjeseca",
+    price: 600,
   },
   {
     name: "12 polu-privatnih treninga (2 osobe)",
-    price: 2700,
+    price: 360,
   },
   {
     name: "12 polu-privatnih treninga (3 osobe)",
-    price: 3100,
+    price: 415,
   },
   {
     name: "12 privatnih treninga u mjesecu",
-    price: 1800,
+    price: 250,
   },
   {
     name: "8 privatnih treninga u mjesecu",
-    price: 1520,
+    price: 240,
   },
   {
     name: "Kineziterapija (12 treninga)",
-    price: 2100,
+    price: 280,
   },
   {
     name: "1 privatni trening",
-    price: 300,
-  },
-  {
-    name: "Godišnja članarina (12 mjeseci)",
-    price: 2400,
-  },
-  {
-    name: "Polu-godišnja članarina (6 mjeseci)",
-    price: 1300,
-  },
-  {
-    name: "Najam ormarića mjesčno",
     price: 40,
   },
   {
+    name: "Godišnja članarina (12 mjeseci)",
+    price: 360,
+  },
+  {
+    name: "Polu-godišnja članarina (6 mjeseci)",
+    price: 190,
+  },
+  {
+    name: "Najam ormarića mjesečno",
+    price: 6,
+  },
+  {
     name: "Izgubljen ključ od ormarića",
-    price: 100,
+    price: 15,
   },
   {
     name: "Najam ručnika (dan)",
-    price: 20,
+    price: 3,
   },
 ];
 
@@ -134,7 +150,7 @@ export const PriceList = () => (
               <div className={styles.cardContainer} key={name}>
                 <div className={styles.card}>
                   <h3 className="text-center">{name}</h3>
-                  <div className={styles.price}>{price} kn</div>
+                  <div className={styles.price}>{price} &euro;</div>
                   {/* Provjeri da li imaš texts */}
                   {!!texts && (
                     <ul className={styles.texts}>
