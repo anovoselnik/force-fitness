@@ -4,23 +4,23 @@ import classnames from "classnames";
 const days = [
   {
     day: "Ponedjeljak",
-    time: "09:00 - 22:00",
+    time: "08:00 - 22:00",
   },
   {
     day: "Utorak",
-    time: "09:00 - 22:00",
+    time: "08:00 - 22:00",
   },
   {
     day: "Srijeda",
-    time: "09:00 - 22:00",
+    time: "08:00 - 22:00",
   },
   {
     day: "Četvrtak",
-    time: "09:00 - 22:00",
+    time: "08:00 - 22:00",
   },
   {
     day: "Petak",
-    time: "09:00 - 22:00",
+    time: "08:00 - 22:00",
   },
   {
     day: "Subota",
