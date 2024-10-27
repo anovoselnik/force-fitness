@@ -45,9 +45,9 @@ export const Footer = () => (
             </p>
             <a
               className={classnames(styles.email, "mt-3")}
-              href="tel:385994715288"
+              href="tel:+385981645261"
             >
-              099 471 52 88
+              098 164 52 61
             </a>
             <br />
             <a className={styles.email} href="mailto:info@fc-force.hr">
